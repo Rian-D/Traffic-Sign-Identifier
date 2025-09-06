@@ -2,11 +2,6 @@
 
 A professional, interactive web application for traffic sign recognition using deep learning and computer vision. This project demonstrates advanced machine learning techniques with a beautiful, production-ready web interface.
 
-<figure class="video_container">
-  <iframe src="traffic_project_vid/test.mp4" frameborder="0" allowfullscreen="true"> 
-</iframe>
-</figure>
-
 ## 🌟 Features
 
 ### 🎯 **Core Functionality**
@@ -103,7 +98,8 @@ A professional, interactive web application for traffic sign recognition using d
 - **Advanced Architectures**: ResNet, EfficientNet, Vision Transformers
 - **Multi-language Support**: International traffic sign recognition
 
-Streamlit demo: what the UI could potentially look like:
+Streamlit demo - what the UI could potentially look like: [traffic_project_vid.mp4.zip](https://github.com/user-attachments/files/22186361/traffic_project_vid.mp4.zip)
+
 
 
 ## 📝 License
