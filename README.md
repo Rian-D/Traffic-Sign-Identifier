@@ -2,6 +2,11 @@
 
 A professional, interactive web application for traffic sign recognition using deep learning and computer vision. This project demonstrates advanced machine learning techniques with a beautiful, production-ready web interface.
 
+<figure class="video_container">
+  <iframe src="traffic_project_vid/test.mp4" frameborder="0" allowfullscreen="true"> 
+</iframe>
+</figure>
+
 ## 🌟 Features
 
 ### 🎯 **Core Functionality**
@@ -52,22 +57,6 @@ A professional, interactive web application for traffic sign recognition using d
    - The app will automatically open at `http://localhost:8501`
    - Or manually navigate to the URL shown in your terminal
 
-## 📁 Dataset Structure
-
-Your traffic sign dataset should be organized as follows:
-
-```
-gtsrb/
-├── 0/          # Speed limit 20 km/h
-│   ├── image1.ppm
-│   ├── image2.ppm
-│   └── ...
-├── 1/          # Speed limit 30 km/h
-│   ├── image1.ppm
-│   └── ...
-├── 2/          # Speed limit 50 km/h
-└── ...         # Up to category 42
-```
 
 **Supported Image Formats**: PNG, JPG, JPEG, PPM
 
@@ -96,20 +85,6 @@ gtsrb/
 - View confusion matrix and classification reports
 - Download the trained model for deployment
 
-## 🏗️ Architecture
-
-### Neural Network Structure
-```
-Input Layer: 30x30x3 RGB images
-├── Conv2D (32 filters, 3x3) + ReLU
-├── MaxPooling2D (2x2)
-├── Conv2D (64 filters, 3x3) + ReLU
-├── MaxPooling2D (2x2)
-├── Conv2D (64 filters, 3x3) + ReLU
-├── Flatten
-├── Dense (128 units) + ReLU + Dropout (0.5)
-└── Output Layer: Dense (43 units) + Softmax
-```
 
 ### Technologies Used
 - **TensorFlow 2.x**: Deep learning framework
@@ -127,6 +102,9 @@ Input Layer: 30x30x3 RGB images
 - **Cloud Deployment**: AWS/Azure integration
 - **Advanced Architectures**: ResNet, EfficientNet, Vision Transformers
 - **Multi-language Support**: International traffic sign recognition
+
+Streamlit demo: what the UI could potentially look like:
+
 
 ## 📝 License
 
