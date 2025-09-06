@@ -1,0 +1,13 @@
+# Core ML and Computer Vision
+opencv-python>=4.10.0
+scikit-learn>=1.7.0
+tensorflow>=2.18.0
+
+# Web Framework and Visualization
+streamlit>=1.49.0
+plotly>=6.3.0
+pandas>=2.3.0
+pillow>=11.3.0
+
+# Additional Dependencies
+numpy>=1.26.0
